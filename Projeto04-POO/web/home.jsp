@@ -47,7 +47,6 @@ body{
 	font-family: Game of Thrones;
 	margin-top: 50px;
 	font-size: 80px;
-	color: blue;
 	text-align: center;
 }
 
@@ -175,7 +174,7 @@ body{
 
       <button class="ranking btn btn-custom"><img src="https://fontmeme.com/permalink/171015/7c056ab1b5d837802c97be1dd1c55df8.png" alt="game-of-thrones-font" border="0"></a></button>
 
-      <button class="cadastro btn btn-custom"><a href="https://fontmeme.com/game-of-thrones-font/"><img src="https://fontmeme.com/permalink/171015/e428d0d926e0c70d84de71a305cd3aec.png" alt="game-of-thrones-font" border="0"></a></button>
+      <button class="cadastro btn btn-custom"><img src="https://fontmeme.com/permalink/171015/e428d0d926e0c70d84de71a305cd3aec.png" alt="game-of-thrones-font" border="0"></a></button>
 
       <button class="equipe btn btn-custom"><img src="https://fontmeme.com/permalink/171015/e148e6299742ed2a288888a5db6d3b99.png" alt="game-of-thrones-font" border="0"></a></button>  
     </div>
