@@ -9,7 +9,7 @@
     <style>
             
     body{
-    background-image: url(imgcadastro.jpg);
+    background-image: url(imagens/imgcadastro.jpg);
     background-size: 100%;
   
 }
@@ -77,6 +77,8 @@
             <input type="button" value="CADASTRAR" id="botao" /><br/>
             
         </form>
+        
+        <h2><a href="home.jsp">Voltar</h2>
         
     </body>
     
