@@ -1,13 +1,26 @@
-<%@page import="quiz.Questoes"%>
-<%@page import="quiz.Quiz"%>
+
+<%@page import="br.com.fatecpg.quiz.Quiz"%>
+<%@page import="br.com.fatecpg.quiz.Questoes"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Quiz - WebQuiz</title>
+        
+        <style>
+       
+        body{
+        background-image: url(imagens/imgquiz.jpg);
+        background-size: 100%;
+    }
+            
+        </style>
+        
     </head>
     <body>
-        <h5><a href="home.jsp">Home</h5>
+        <h5><a href="usuario.jsp">Home</h5></br></br>
+        
+        
         <h1>WebQuiz</h1>
         <h2>Quiz</h2>
         <h3>Questões</h3>
@@ -29,7 +42,7 @@
         }
    %>
                 <form>
-                    <%for(Quest q: Quiz.getQuestoes()){%>
+                    <%for(Questoes q: Quiz.getQuestoes()){%>
                     <h4><%=q.getPergunta()%></h4>
                     <input type="radio" name="<%=q.getPergunta()%>" value="<%=q.getAlternativas()[0]%>"/>
                     <%=q.getAlternativas()[0]%>
@@ -39,7 +52,9 @@
                     <%=q.getAlternativas()[2]%>
                 <%}%>
                 <br/><br/>
+                
                 <input type="submit" name="finalizar" value="Finalizar"/>
+                
                 </form>
     </body>
 </html>
