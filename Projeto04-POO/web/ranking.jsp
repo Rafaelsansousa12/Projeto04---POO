@@ -25,6 +25,17 @@
 	text-align: right;
 }
 
+    div{
+        color: white;
+        float: right;
+        border: 1px solid gray;
+        width: 300px;
+	height: 300px;
+	margin: 10px;
+        margin-right: 70px;
+    
+}
+
             
         </style>
         
@@ -33,6 +44,13 @@
     <body>
         
         <h1 class="logo"><img src="https://fontmeme.com/permalink/171016/a0bf00d23b4491b9867e948f91411470.png" alt="game-of-thrones-font" border="0"></a></h1>
+        
+        <div>
+            <h2>Top 10</h2>
+        </div>
+        
+       
+        
         
     </body>
     

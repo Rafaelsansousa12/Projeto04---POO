@@ -67,14 +67,17 @@
             CPF:<br/>
             <input type="text" size="50" id="input" placeholder="Digite seu CPF..."/><br/>
             
-            E-mail:<br/>
-            <input type="text" size="50" id="input" placeholder="Digite seu e-mail..."/><br/><br/>
-            
             Sexo:
             <input type="radio" name="sexo"/>Masculino
             <input type="radio" name="sexo"/>Feminino<br/><br/>
             
-            <input type="button" value="CADASTRAR" id="botao" /><br/>
+            E-mail:<br/>
+            <input type="text" size="50" id="input" placeholder="Digite seu e-mail..."/><br/><br/>
+            
+            
+            
+           
+            <button id="botao"><a href="usuario.jsp">Cadastrar</button></br></br>
             
         </form>
         
