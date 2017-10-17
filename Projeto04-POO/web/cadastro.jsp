@@ -12,24 +12,26 @@
     
     <body class="backcadastro">
         
-        <h1 class="logo"><img src="https://fontmeme.com/permalink/171016/e00cc2f45ce0b4e0db514cebb4843bdd.png" alt="game-of-thrones-font" border="0"></a></a></h1>
+        <h1 class="logo"><a href="https://fontmeme.com/game-of-thrones-font/"><img src="https://fontmeme.com/permalink/171017/6234253d8c9286a8f3140ffdcf08764d.png" alt="game-of-thrones-font" border="0"></a></h1>
         
         
         <form class="formcadastro">
             
             
             Nome:<br/>
-             <input type="text" size="50" id="inputcadastro" color: white placeholder="Digite seu nome..."><br/>
+             <input type="text" size="50" class="inputcadastro" color: white placeholder="Digite seu nome..." required><br/>
             
-            CPF:<br/>
-            <input type="text" size="50" id="inputcadastro" placeholder="Digite seu CPF..."/><br/>
-            
-            Sexo:
+             Sexo:
             <input type="radio" name="sexo"/>Masculino
             <input type="radio" name="sexo"/>Feminino<br/><br/>
+             
+            Data de Nascimento:<br/>
+            <input type="date" id="data" size="50" class="inputcadastro" required><br/><br/>
             
-            E-mail:<br/>
-            <input type="text" size="50" id="inputcadastro" placeholder="Digite seu e-mail..."/><br/><br/>
+            
+            
+            <label for="email"> E-mail:</label></br>
+            <input type="email" id="email" size="50" class="inputcadastro" placeholder="Digite seu e-mail..." required><br/><br/>
             
             
             
