@@ -13,12 +13,28 @@
         background-image: url(imagens/imgquiz.jpg);
         background-size: 100%;
     }
+    
+    a{
+
+        text-decoration: none ;
+}
+
+    a:visited{
+        color: white;
+        text-decoration: none;
+}
+
+    a:hover{
+	color: #FFD700;
+}
+   
             
         </style>
         
     </head>
     <body>
-        <h5><a href="usuario.jsp">Home</h5></br></br>
+        
+        <h2><a href="usuario.jsp">Home</a></h2></br></br>
         
         
         <h1>WebQuiz</h1>
@@ -54,7 +70,7 @@
                 <br/><br/>
                 
                 <input type="submit" name="finalizar" value="Finalizar"/>
-                
+                 
                 </form>
     </body>
 </html>

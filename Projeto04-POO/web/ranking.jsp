@@ -35,6 +35,26 @@
         margin-right: 70px;
     
 }
+    #absolute{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    
+}
+    a{
+
+        text-decoration: none ;
+}
+
+    a:visited{
+        color: white;
+        text-decoration: none;
+}
+
+    a:hover{
+	color: #FFD700;
+}
+   
 
             
         </style>
@@ -50,10 +70,10 @@
         </div>
         
        
-        
+        <h2 id="absolute"><a href="home.jsp">Voltar</a></h2>
         
     </body>
     
-    <h2><a href="home.jsp">Voltar</h2>
+   
     
 </html>

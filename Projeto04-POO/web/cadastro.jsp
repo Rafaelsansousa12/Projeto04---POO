@@ -48,6 +48,20 @@
     font-size: 30px;
     font-family: "Times New Roman";
 }
+
+   a{
+
+        text-decoration: none ;
+}
+
+    a:visited{
+        color: white;
+        text-decoration: none;
+}
+
+    a:hover{
+	color: #FFD700;
+}
             
     </style>
         
@@ -77,11 +91,11 @@
             
             
            
-            <button id="botao"><a href="usuario.jsp">Cadastrar</button></br></br>
+            <button id="botao"><a href="usuario.jsp">Cadastrar</a></button></br></br>
             
         </form>
         
-        <h2><a href="home.jsp">Voltar</h2>
+        <h2><a href="home.jsp">Voltar</a></h2>
         
     </body>
     

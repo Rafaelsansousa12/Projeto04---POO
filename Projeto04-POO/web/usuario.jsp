@@ -60,6 +60,20 @@
     padding: 25px;
     text-decoration: none;
 }
+    a{
+
+        text-decoration: none ;
+}
+
+    a:visited{
+        color: white;
+        text-decoration: none;
+}
+
+    a:hover{
+	color: #FFD700;
+}
+   
 
   
     
@@ -80,9 +94,9 @@
             <h2>Seus Testes</h2>
         </div>
         
-        <button class="backbutton" ><a href="quiz.jsp">Jogar</button>
+        <button class="backbutton" ><a href="quiz.jsp">JOGAR</a></button>
         
-        <h2><a href="home.jsp">Voltar</h2>
+        <h2><a href="home.jsp">Voltar</a></h2>
         
         
     </body>

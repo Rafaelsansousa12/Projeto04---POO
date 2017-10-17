@@ -52,6 +52,18 @@
         padding: 15px;
         text-decoration: none;
 }
+        a{
+
+        text-decoration: none ;
+}
+        a:visited{
+        color: white;
+        text-decoration: none;
+}
+
+        a:hover{
+	color: #FFD700;
+}
         </style>
         
         
@@ -68,14 +80,14 @@
             <input type="text" size="50" id="input" placeholder="Digite seu e-mail..."/><br/><br/>
            
              <!-- Criar Condição if pra validar o acesso ao clicar entrar -->
-             <button id="botao"><a href="usuario.jsp">Entrar</button></br></br>
+             <button id="botao"><a href="usuario.jsp">Entrar</a></button></br></br>
             
-            <h3><a href="cadastro.jsp">Ainda não possui Cadastro?</h3>
+             <h3><a href="cadastro.jsp">Ainda não possui Cadastro?</a></h3>
             
             
         </form>
         
-        <h2><a href="home.jsp">Voltar</h2>
+        <h2><a href="home.jsp">Voltar</a></h2>
         
     </body>
 </html>
