@@ -15,12 +15,12 @@
     }
     
     a{
-
+        font-size: 30px;
         text-decoration: none ;
 }
 
     a:visited{
-        color: white;
+        color: black;
         text-decoration: none;
 }
 
@@ -34,7 +34,7 @@
     </head>
     <body>
         
-        <h2><a href="usuario.jsp">Home</a></h2></br></br>
+        <a href="home.jsp">Home</a> | <a href="usuario.jsp">Principal</a>
         
         
         <h1>WebQuiz</h1>

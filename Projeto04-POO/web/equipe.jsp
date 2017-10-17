@@ -37,7 +37,7 @@
             
         #absolute{
         position: absolute;
-        bottom: -150px;
+        bottom: -170px;
         left: 0;
     
 }
@@ -66,7 +66,7 @@
     
         <div>
             <img src="imagens/imgRafael.jpg" id="foto">
-            <p>Resumo</p>
+        
             
         </div>
         

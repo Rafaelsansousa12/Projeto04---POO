@@ -65,6 +65,7 @@ body{
 	margin-top: 140px;
 	margin-left: 40px;
 	border-radius: 30px;
+      
 }
 
 .login:hover {
@@ -83,7 +84,9 @@ body{
 	padding: 30px;
 	margin-top: 140px;
 	margin-left: 75px;
-	border-radius: 30px;	
+	border-radius: 30px;
+       
+        
 }
 
 .testes:hover {
@@ -103,6 +106,7 @@ body{
 	margin-top: 140px;
 	margin-left: 30px;
 	border-radius: 30px;
+       
 }
 
 .ranking:hover {
@@ -122,6 +126,7 @@ body{
 	margin-top: 140px;
 	margin-left: 5px;
 	border-radius: 30px;
+
 }
 
 .cadastro:hover {
@@ -141,6 +146,7 @@ body{
 	margin-top: 140px;
 	margin-left: 10px;
 	border-radius: 30px;
+       
 }
 
 .equipe:hover {
