@@ -1,0 +1,383 @@
+
+/*         CSS TESTES*/
+         
+         
+        body{
+        background-image: url(imagens/imgtestes.jpg);
+        background-size: 100%;
+}
+    
+      .logo {
+	font-family: Game of Thrones;
+	margin-top: 40px;
+	font-size: 80px;
+	text-align: center;
+}
+
+        div{
+        color: white;
+        border: 1px solid gray;
+        width: 300px;
+	height: 300px;
+	margin: 10px;
+    
+}
+
+       #absolute{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    
+}
+
+        a{
+
+        text-decoration: none ;
+}
+
+        a:visited{
+        color: white;
+        text-decoration: none;
+}
+
+        a:hover{
+	color: #FFD700;
+}       
+
+/*CSS CADASTRO*/
+
+        
+    .backcadastro{
+    background-image: url(imagens/imgcadastro.jpg);
+    background-size: 100%;
+  
+}
+
+    .formcadastro{ 
+    color: #fff;
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+    #inputcadastro {
+    background:rgba(0, 0, 0, 0.8); 
+    border:4px #fff;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 15px;
+    color: white;
+ 
+
+} 
+
+    #botaocadastro {
+    background:transparent;     
+    color:#fff; 
+    border:4px solid #ffffff;
+    font-size: 30px;
+    font-family: "Times New Roman";
+}
+
+/*CSS LOGIN*/
+
+      .bodylogin{
+        background-image: url(imagens/imglogin.jpg);
+        background-size: 100%;
+                
+    }
+        .logologin{
+        margin-top: 40px;
+    } 
+      .formlogin{ 
+        color: #fff;
+        margin-top: 50px;
+        font-size: 30px;
+	text-align: left;
+        font-weight: bold;
+        font-family: "Times New Roman";
+        margin-left: 35px;
+    
+}
+
+        #inputlogin1 {
+        background:rgba(169,169,169,0.2); 
+        border:4px #fff;
+        border-radius: 15px;
+        padding: 15px;
+        font-size: 15px;
+        color: white;
+}
+
+        #inputlogin2{
+    
+        color: white;
+}
+
+        #botaologin{
+        background:transparent;     
+        color: white; 
+        border:4px solid rgba(169,169,169,0.2);
+        font-size: 30px;
+        font-family: "Times New Roman";
+        border-radius: 15px;
+        padding: 15px;
+        text-decoration: none;
+}
+
+    #absolutelogin{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    
+}
+
+/*CSS RANKING*/
+
+
+.bodyranking{
+        background-image: url(imagens/imgranking.jpg);
+        background-size: 80%;
+    }
+    
+    .logoranking {
+	font-family: Game of Thrones;
+	margin-top: 40px;
+	font-size: 80px;
+	text-align: right;
+}
+
+    .divranking{
+        color: white;
+        float: right;
+        border: 1px solid gray;
+        width: 300px;
+	height: 300px;
+	margin: 10px;
+        margin-right: 70px;
+    
+}
+    #absoluteranking{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    
+}
+   
+
+/*CSS EQUIPE*/
+
+
+.bodyequipe{
+        background-image: url(imagens/imgequipe.jpg);
+        background-size: 100%;
+    }
+    
+        .logoequipe {
+	font-family: Game of Thrones;
+	margin-top: 40px;
+	font-size: 80px;
+	text-align: center;
+        
+}
+
+        #foto{
+	width: 400px;
+	padding: 30px;
+	float: left;
+	margin: 5px;
+        margin-left: 12px;
+        margin-top: 45px;
+}
+            
+        #absoluteequipe{
+        position: absolute;
+        bottom: -170px;
+        left: 0;
+    
+}   
+
+
+/*CSS USUARIO*/
+
+    .bodyusuario{
+        background-image: url(imagens/imgusuario.jpg);
+        background-size: 100%;
+ 
+    }
+    
+    .divusuario{
+        color: white;
+        border: 1px solid gray;
+        width: 300px;
+	height: 300px;
+	margin: 10px;
+        float: right;
+    
+}
+
+    #foto{
+	width: 100px;
+	padding: 30px;
+	float: left;
+	margin: 5px;
+        width: 400px;
+        margin-left: -12px;
+        margin-top: 45px;
+}
+
+    .backbutton{
+    
+        background:rgba(169,169,169,0.8);
+        background-size: 100%;
+        border:5px ;
+        font-size: 50px;
+        font-family: "Times New Roman";
+        border-radius: 20px;
+        padding: 25px;
+        text-decoration: none;
+} 
+        #absoluteusuario{
+        position: absolute;
+        bottom: -110px;
+        left: 0;
+}
+
+/*CSS HOME*/
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+    .bodyhome{
+    background-image: url(imagens/capa02.jpg);
+    background-size: 100%;
+}
+    .logohome {
+	font-family: Game of Thrones;
+	margin-top: 50px;
+	font-size: 80px;
+	text-align: center;
+}
+
+@font-face {
+	font-family: Game of Thrones;
+	src: url(../bootstrap/fonts/Game of Thrones.ttf) no-repeat;
+}
+
+.login {
+	background: rgba(0, 0, 0, 0.3);
+	font-size: 50px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	padding: 30px;
+	margin-top: 140px;
+	margin-left: 40px;
+	border-radius: 30px;
+      
+}
+
+.login:hover {
+	background-color: #000000;
+	transition: 0.7s;
+	color: #D7DF01;
+	font-weight: bold;
+}
+
+.testes {
+	background: rgba(0, 0, 0, 0.3);
+	font-size: 50px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	padding: 30px;
+	margin-top: 140px;
+	margin-left: 75px;
+	border-radius: 30px;
+       
+        
+}
+
+.testes:hover {
+	background-color: #000000;
+	transition: 0.7s;
+	color: #D7DF01;
+	font-weight: bold;
+}
+
+.ranking {
+	background: rgba(0, 0, 0, 0.3);
+	font-size: 50px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	padding: 30px;
+	margin-top: 140px;
+	margin-left: 30px;
+	border-radius: 30px;
+       
+}
+
+.ranking:hover {
+	background-color: #000000;
+	transition: 0.7s;
+	color: #D7DF01;
+	font-weight: bold;
+}
+
+.cadastro {
+	background: rgba(0, 0, 0, 0.3);
+	font-size: 50px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	padding: 30px;
+	margin-top: 140px;
+	margin-left: 5px;
+	border-radius: 30px;
+
+}
+
+.cadastro:hover {
+	background-color: #000000;
+	transition: 0.7s;
+	color: #D7DF01;
+	font-weight: bold;
+}
+
+.equipe {
+	background: rgba(0, 0, 0, 0.3);
+	font-size: 50px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	padding: 30px;
+	margin-top: 140px;
+	margin-left: 10px;
+	border-radius: 30px;
+       
+}
+
+.equipe:hover {
+	background-color: #000000;
+	transition: 0.7s;
+	color: #D7DF01;
+	font-weight: bold;
+}
+
+.direitos {
+	color: #fff;
+	margin-top: 190px;
+	text-align: center;
+}
+
+
+    
+    
+    

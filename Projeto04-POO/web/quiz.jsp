@@ -5,15 +5,23 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Quiz - WebQuiz</title>
+        
+        <title>Quiz</title>
         
         <style>
-       
-        body{
+            
+            
+    .bodyquiz{
         background-image: url(imagens/imgquiz.jpg);
         background-size: 100%;
-    }
-    
+}
+
+    .logoquiz {
+	font-family: Game of Thrones;
+	margin-top: -35px;
+	font-size: 80px;
+	text-align: center;
+}
     a{
         font-size: 30px;
         text-decoration: none ;
@@ -27,18 +35,17 @@
     a:hover{
 	color: #FFD700;
 }
-   
             
         </style>
         
     </head>
-    <body>
+    <body class="bodyquiz">
         
-        <a href="home.jsp">Home</a> | <a href="usuario.jsp">Principal</a>
+         <a href="home.jsp" >Home</a> | <a href="usuario.jsp">Principal</a> 
         
         
-        <h1>WebQuiz</h1>
-        <h2>Quiz</h2>
+        <h1 class="logoquiz"><img src="https://fontmeme.com/permalink/171017/d0d34219f6fb75dd485df67625b77371.png" alt="game-of-thrones-font" border="0"></a></h1>
+        
         <h3>Questões</h3>
     
         <%

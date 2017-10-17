@@ -1,62 +1,11 @@
-<%-- 
-    Document   : testes
-    Created on : 16/10/2017, 01:29:26
-    Author     : Patrícia
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+        
         <title>Testes</title>
-        
-        <style>
-            
-        body{
-        background-image: url(imagens/imgtestes.jpg);
-        background-size: 100%;
-    }
-    
-      .logo {
-	font-family: Game of Thrones;
-	margin-top: 40px;
-	font-size: 80px;
-	text-align: center;
-}
-
-        div{
-        color: white;
-        border: 1px solid gray;
-        width: 300px;
-	height: 300px;
-	margin: 10px;
-    
-}
-
-       #absolute{
-        position: absolute;
-        bottom: 0;
-        left: 0;
-    
-}
-
-        a{
-
-        text-decoration: none ;
-}
-
-        a:visited{
-        color: white;
-        text-decoration: none;
-}
-
-        a:hover{
-	color: #FFD700;
-}
-   
-        
-        </style>
         
     </head>
     <body>
