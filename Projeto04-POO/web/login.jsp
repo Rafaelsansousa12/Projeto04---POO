@@ -19,10 +19,11 @@
         <form class="formlogin">
             
             E-mail:<br/>
-            <input type="text" size="50" id="inputlogin1" placeholder="Digite seu e-mail..."/><br/><br/>
+            <input type="email" name="usuarioName" size="50" id="inputlogin1" placeholder="Digite seu e-mail..."/><br/><br/>   
+            
            
-             <!-- Criar Condição if pra validar o acesso ao clicar entrar -->
-             <button id="botaologin"><a href="usuario.jsp">Entrar</a></button></br></br>
+            <input id="botaologin" type="submit"  name="trigger" value="Entrar" data-toggle="modal"/>
+           
             
              <h3><a href="cadastro.jsp">Ainda não possui Cadastro?</a></h3>
             

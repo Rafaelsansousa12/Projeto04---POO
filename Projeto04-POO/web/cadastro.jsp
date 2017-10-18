@@ -30,13 +30,23 @@
             
             
             
+            
+            
+            <%                        if (session.getAttribute("email") == null) {
+                    %>
+                    
             <label for="email"> E-mail:</label></br>
             <input type="email" id="email" size="50" class="inputcadastro" placeholder="Digite seu e-mail..." required><br/><br/>
-            
-            
+                    
+                    <input id="botaocadastro" id="enter" type="submit" class="btn btn-colors2" name="trigger" value="Cadastre-se"/>
+                    <%
+                    } else {%>
+                    <br><br>
+                    <%}
+                    %>
             
            
-            <button id="botaocadastro"><a href="usuario.jsp">Cadastrar</a></button></br></br>
+            
             
         </form>
         

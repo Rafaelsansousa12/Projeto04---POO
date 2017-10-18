@@ -48,36 +48,195 @@
         
         <h3>Questões</h3>
     
-        <%
-            if(request.getParameter("finalizar") !=null){
-                int acertos = 0;
-                for(Questoes q: Quiz.getQuestoes()){
-                    String resposta = request.getParameter(q.getPergunta());
-                    if(resposta != null){
-                        if(resposta.equals(q.getResposta())){
-                            acertos++;
-                        }
-                    }
-                }
-                Quiz.quantidade++;
-                Quiz.soma+=(100.0*((double)acertos/10.0));
-                response.sendRedirect(request.getContextPath()+"/home.jsp");
-        }
-   %>
-                <form>
-                    <%for(Questoes q: Quiz.getQuestoes()){%>
-                    <h4><%=q.getPergunta()%></h4>
-                    <input type="radio" name="<%=q.getPergunta()%>" value="<%=q.getAlternativas()[0]%>"/>
-                    <%=q.getAlternativas()[0]%>
-                    <input type="radio" name="<%=q.getPergunta()%>" value="<%=q.getAlternativas()[1]%>"/>
-                    <%=q.getAlternativas()[1]%>
-                    <input type="radio" name="<%=q.getPergunta()%>" value="<%=q.getAlternativas()[2]%>"/>
-                    <%=q.getAlternativas()[2]%>
-                <%}%>
-                <br/><br/>
+        <form>
                 
-                <input type="submit" name="finalizar" value="Finalizar"/>
-                 
-                </form>
+                    <div class="row-radio">
+                <h3>1. Qual era o nome do filho mais velho de Ned Stark ?</h3>
+                <div class="radio-place">
+                    <input type="radio" class="radio-button" required name="Qual era o nome do filho mais velho de Ned Stark ?"
+                           value="Bran Stark "/>
+                    Bran Stark <br/>
+                    <input type="radio" class="radio-button2" required  name="Qual era o nome do filho mais velho de Ned Stark ?"
+                           value="Robb Stark"/>
+                    Robb Stark <br/>
+                    <input type="radio" class="radio-button2" required  name="Qual era o nome do filho mais velho de Ned Stark ?"
+                           value="Arya Stark"/>
+                    Arya Stark<br/>
+                    <input type="radio" class="radio-button2" required  name="Qual era o nome do filho mais velho de Ned Stark ?"
+                           value="Jon Snow"/>
+                    Jon Snow<br/>
+                </div>
+                    <hr>
+                    </div>
+                    
+                    <div class="row-radio">
+                <h4>2. Quais são os brasões das casas Lannister, Stark, Baratheon e Targaryen, respectivamente ?</h4>
+                <div class="radio-place">
+                    <input type="radio" class="radio-button" required name="Quais são os brasões das casas Lannister, Stark, Baratheon e Targaryen, respectivamente ?"
+                           value="Lobo Negro, Leão dourado, Lula gigante e Dragão de três cabeças"/>
+                    Lobo Negro, Leão dourado, Lula gigante e Dragão de três cabeças <br/>
+                    <input type="radio" class="radio-button2" required  name="Quais são os brasões das casas Lannister, Stark, Baratheon e Targaryen, respectivamente ?"
+                           value="Leão gigante, Cervo Negro, Águia e Lua crescente"/>
+                    Leão gigante, Cervo Negro, Águia e Lua crescente<br/>
+                    <input type="radio" class="radio-button2" required  name="Quais são os brasões das casas Lannister, Stark, Baratheon e Targaryen, respectivamente ?"
+                           value="Lobo branco, Leão gigante, Dragão de três cabeças e Águia"/>
+                    Lobo branco, Leão gigante, Dragão de três cabeças e Águia </br>
+                    <input type="radio" class="radio-button2" required  name="Quais são os brasões das casas Lannister, Stark, Baratheon e Targaryen, respectivamente ?"
+                           value="Leão dourado, Lobo gigante, Veado Negro e Dragão de três cabeças"/>
+                    Leão dourado, Lobo gigante, Veado Negro e Dragão de três cabeças</br>
+                    </div>
+                    <hr>
+                    </div>
+                    
+                    <div class="row-radio">
+                <h4>3. </h4>
+                <div class="radio-place">
+                    <input type="radio" class="radio-button" required name=""
+                           value=" "/>
+                    
+                    <br/>
+                    <input type="radio" class="radio-button2" required  name=""
+                           value=""/>
+                    
+                     <br/>
+                    <input type="radio" class="radio-button2" required  name=""
+                           value=""/>
+                     
+                    </div>
+                    <hr>
+                    </div>
+                    
+                    <div class="row-radio">
+                <h4>4. </h4>
+                <div class="radio-place">
+                    <input type="radio" class="radio-button" required name=""
+                           value=""/>
+                    
+                     <br/>
+                    <input type="radio" class="radio-button2" required  name=""
+                           value=""/>
+                    
+                    <br/>
+                    <input type="radio" class="radio-button2" required  name=""
+                           value=""/>
+                     
+                    </div>
+                    <hr>
+                    </div>
+                    
+                    <div class="row-radio">
+                <h4>5. </h4>
+                <div class="radio-place">
+                    <input type="radio" class="radio-button" required name=""
+                           value=""/>
+                    
+                    <br/>
+                    <input type="radio" class="radio-button2" required  name=""
+                           value=""/>
+                    
+                     <br/>
+                    <input type="radio" class="radio-button2" required  name=""
+                           value=""/>
+                     
+                    </div>
+                    <hr>
+                    </div>
+                    
+                    <div class="row-radio">
+                <h4>6. </h4>
+                <div class="radio-place">
+                    <input type="radio" class="radio-button" required name=""
+                           value="Besouro-rinoceronte "/>
+                    
+                    <br/>
+                    <input type="radio" class="radio-button2" required  name=""
+                           value=""/>
+                    
+                     <br/>
+                    <input type="radio" class="radio-button2" required  name=""
+                           value=""/>
+                    
+                  
+                    </div>
+                    <hr>
+                    </div>
+                    
+                    <div class="row-radio">
+                <h4>7. </h4>
+                <div class="radio-place">
+                    <input type="radio" class="radio-button" required name=""
+                           value=""/>
+                    
+                    <br/>
+                    <input type="radio" class="radio-button2" required  name="?"
+                           value=""/>
+                    
+                    <br/>
+                    <input type="radio" class="radio-button2" required  name="?"
+                           value=""/>
+                    
+                    </div>
+                    <hr>
+                    </div>
+                    
+                    <div class="row-radio">
+                <h4>8. </h4>
+                <div class="radio-place">
+                    <input type="radio" class="radio-button" required name=""
+                           value=""/>
+                    
+                    <br/>
+                    <input type="radio" class="radio-button2" required  name=""
+                           value=""/>
+                    
+                    <br/>
+                    <input type="radio" class="radio-button2" required  name=""
+                           value=""/>
+                     
+                    </div>
+                    <hr>
+                    </div>
+                    
+                    <div class="row-radio">
+                <h4>9. </h4>
+                <div class="radio-place">
+                    <input type="radio" class="radio-button" required name=""
+                           value=""/>
+                    
+                    <br/>
+                    <input type="radio" class="radio-button2" required  name=""
+                           value=""/>
+                    
+                   <br/>
+                    <input type="radio" class="radio-button2" required  name=""
+                           value=""/>
+                   
+                    </div>
+                    <hr>
+                    </div>
+                    
+                    <div class="row-radio">
+                <h4>10. </h4>
+                <div class="radio-place">
+                    <input type="radio" class="radio-button" required name=""
+                           value=""/>
+                    
+                     <br/>
+                    <input type="radio" class="radio-button2" required  name=""
+                           value=""/>
+                    
+                    <br/>
+                    <input type="radio" class="radio-button2" required  name=""
+                           value=""/>
+                     
+                    </div>
+                    <hr>
+                    </div>
+                    
+                
+                <br/><br/>
+                <input type="hidden" name="usuarioTestado" value="touch.sousa@gmail.com"/>
+                <h5 class="textCenter"><input class="btn btn-colors " type="submit" name="finalizar" value="Finalizar"/></h5>
+            </form>
     </body>
 </html>

@@ -37,8 +37,5 @@ public class Questoes {
     public void setAlternativas(String[] alternativas) {
         this.alternativas = alternativas;
     }
-         public static void main(String[] args) {
-
-}
 }
 
