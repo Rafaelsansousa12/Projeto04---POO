@@ -25,7 +25,7 @@
             <h2>Seus Testes</h2>
         </div>
         
-        <button class="backbutton" ><a href="quiz.jsp">JOGAR</a></button>
+        <button class="backbutton"  ><a href="quiz.jsp">JOGAR</a></button>
         
         <h2 id="absoluteusuario"><a href="home.jsp">Voltar</a></h2>
         
